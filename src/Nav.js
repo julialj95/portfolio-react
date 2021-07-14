@@ -1,9 +1,16 @@
+import { Link } from "react-router-dom";
 function Nav() {
   return (
     <ul>
-      <li>About</li>
-      <li>Projects</li>
-      <li>Work with Me</li>
+      <Link to="/about">
+        <li>About</li>
+      </Link>
+      <Link to="/projects">
+        <li>Projects</li>
+      </Link>
+      <Link to="work-with-me">
+        <li>Work with Me</li>
+      </Link>
     </ul>
   );
 }

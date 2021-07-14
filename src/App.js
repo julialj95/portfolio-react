@@ -3,6 +3,8 @@ import "./App.css";
 import Nav from "./Nav.js";
 import Header from "./Header.js";
 import workWithMe from "./workWithMe.js";
+import Projects from "./Projects.js";
+import About from "./About.js";
 
 function App() {
   return (
